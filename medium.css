@@ -10,7 +10,7 @@ body {
   
   .container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template: 4fr /repeat(4,auto);
     grid-template-rows: auto;
     padding: 10px;
     border-radius: 10px;
